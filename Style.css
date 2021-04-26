@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding-top: 738px;
+    background-color: dimgrey;
+    text-align: center;
+
+}
+
+#profile {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: burlywood;
+    opacity: 0.85;
+    background: linear-gradient(#2b69b3 0%, #b3752b 100%);
+    z-index: 9;
+}
+
+#i {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    position: relative
+}
+
+#imgelon {
+    height: 600px;
+    width: 550px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    border-radius: 90%;
+    margin-top: 115px;
+}
+
+#elon {
+    font-size: 80px;
+    font-family: cursive;
+
+}
+
+#bio {
+    padding-top: 250px;
+    text-align: center;
+    background: seagreen;
+    top: 20px;
+}
+
+
+
+#hello {
+    font-size: 35px;
+}
+
+p {
+    font-family: fantasy;
+    color: #1f149d;
+    font-size: 20px;
+}
+
+.space {
+    width: 100%;
+    background-color: black;
+    height: 20px;
+}
+
+.menu {
+    list-style: none;
+    margin-top: 5px;
+    right: 35px;
+    top: 10px;
+    font-family: 'Train One', cursive;
+    font-size: 5px;
+    position:fixed;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    width: 90%;
+    cursor: pointer;
+}
+
+.items {
+    float: left;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 100px;
+        font-size: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+
+
+.line {
+    height: 10px;
+    width: 100px;
+    background-color: black;
+    margin: auto;
+}
+#h{
+  font-size: 50px;  
+}
